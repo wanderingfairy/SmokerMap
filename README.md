@@ -27,7 +27,7 @@
 
 - 다크 모드 적용이 가능한 디자인 구현
 
-![스크린샷 2020-09-04 오후 4.41.57](https://tva1.sinaimg.cn/large/007S8ZIlgy1gienux9hk7j314b0u0wk1.jpg)
+![스크린샷 2020-09-04 오후 4.59.37](https://tva1.sinaimg.cn/large/007S8ZIlgy1gieodd1frjj314a0u0jwx.jpg)
 
 - 네이버 지도 상에 흡연 부스 추가 기능.(Firebase를 이용한 실시간 동기화)
 
