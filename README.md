@@ -42,7 +42,9 @@
 
 
 
-## 구동 영상(gif)
+## 구동 영상(Youtube link)
 
-![TookTookVideo.mp4](/Users/pro/Downloads/3차해커톤TookTook정의석황정덕/TookTookVideo.mp4.gif)
+###  https://youtu.be/UuHXqTF5P-I
+
+
 
