@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Today View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" customModule="Widget" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You smoked" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tQB-d7-zTz">
+                                <rect key="frame" x="111" y="25" width="94" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 cigarettes today" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A6f-DD-ffC">
+                                <rect key="frame" x="111" y="46" width="139" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SmokingButton" translatesAutoresizingMaskIntoConstraints="NO" id="g0c-dJ-9k5">
+                                <rect key="frame" x="16" y="12" width="78" height="76"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="78" id="Tfv-2i-fbE"/>
+                                    <constraint firstAttribute="height" constant="76" id="fft-2k-2UD"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="tQB-d7-zTz" firstAttribute="top" secondItem="g0c-dJ-9k5" secondAttribute="top" constant="13" id="B5x-Rk-pw1"/>
+                            <constraint firstItem="g0c-dJ-9k5" firstAttribute="leading" secondItem="ssy-KU-ocm" secondAttribute="leading" constant="16" id="KFd-xV-4i3"/>
+                            <constraint firstItem="A6f-DD-ffC" firstAttribute="top" secondItem="tQB-d7-zTz" secondAttribute="bottom" id="Tge-mF-FqI"/>
+                            <constraint firstItem="g0c-dJ-9k5" firstAttribute="top" secondItem="S3S-Oj-5AN" secondAttribute="top" constant="12" id="bSc-Yh-jih"/>
+                            <constraint firstItem="tQB-d7-zTz" firstAttribute="leading" secondItem="g0c-dJ-9k5" secondAttribute="trailing" constant="17" id="sTL-kL-5mc"/>
+                            <constraint firstItem="A6f-DD-ffC" firstAttribute="leading" secondItem="tQB-d7-zTz" secondAttribute="leading" id="vZq-jQ-zgY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ssy-KU-ocm"/>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="100"/>
+                    <connections>
+                        <outlet property="todayLabel" destination="A6f-DD-ffC" id="Zxg-Tt-T6C"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="137.27678571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SmokingButton" width="189" height="189"/>
+    </resources>
+</document>

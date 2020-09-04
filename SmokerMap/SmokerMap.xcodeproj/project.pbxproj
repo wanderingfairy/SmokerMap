@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13E8A0EB9A3FE25A5827E1E6 /* Pods_SmokerMap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 344683672FA317A528ECC858 /* Pods_SmokerMap.framework */; };
+		153EE4A2241B5D7A0047C8BA /* AddSmokingAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153EE4A0241B5D7A0047C8BA /* AddSmokingAreaView.swift */; };
+		153EE4A3241B5D7A0047C8BA /* CustomInfoWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153EE4A1241B5D7A0047C8BA /* CustomInfoWindowView.swift */; };
+		158A1636250219B800F9094F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 158A1635250219B800F9094F /* GoogleService-Info.plist */; };
+		15A9705C2416380A007805DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A9705B2416380A007805DC /* AppDelegate.swift */; };
+		15A970602416380A007805DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A9705F2416380A007805DC /* ViewController.swift */; };
+		15A970632416380A007805DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A970612416380A007805DC /* Main.storyboard */; };
+		15A970652416380B007805DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15A970642416380B007805DC /* Assets.xcassets */; };
+		15A970682416380B007805DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15A970662416380B007805DC /* LaunchScreen.storyboard */; };
+		15A9707324163B82007805DC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A9707224163B82007805DC /* LoginViewController.swift */; };
+		15A9707724163BAA007805DC /* SmokingAreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A9707624163BAA007805DC /* SmokingAreaViewController.swift */; };
+		15A9707924163BFB007805DC /* MainTapBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A9707824163BFB007805DC /* MainTapBarViewController.swift */; };
+		15A9707B24163C0F007805DC /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A9707A24163C0F007805DC /* InfoViewController.swift */; };
+		15A9707D24163C26007805DC /* AddSmokingAreaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A9707C24163C26007805DC /* AddSmokingAreaViewController.swift */; };
+		15A9707F24163C41007805DC /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A9707E24163C41007805DC /* TimerViewController.swift */; };
+		15A9708124163CF0007805DC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A9708024163CF0007805DC /* Model.swift */; };
+		15CB1E92241A1CB300024E3D /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15CB1E77241A146100024E3D /* NotificationCenter.framework */; };
+		15CB1E95241A1CB300024E3D /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CB1E94241A1CB300024E3D /* TodayViewController.swift */; };
+		15CB1E98241A1CB300024E3D /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15CB1E96241A1CB300024E3D /* MainInterface.storyboard */; };
+		15CB1E9C241A1CB300024E3D /* Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 15CB1E91241A1CB300024E3D /* Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		15CB1EA2241A238F00024E3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15A970642416380B007805DC /* Assets.xcassets */; };
+		15CB1EA3241A23FB00024E3D /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CB1E94241A1CB300024E3D /* TodayViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15CB1E9A241A1CB300024E3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15A970502416380A007805DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15CB1E90241A1CB300024E3D;
+			remoteInfo = Widget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		15CB1E83241A146100024E3D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				15CB1E9C241A1CB300024E3D /* Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		153EE4A0241B5D7A0047C8BA /* AddSmokingAreaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddSmokingAreaView.swift; sourceTree = "<group>"; };
+		153EE4A1241B5D7A0047C8BA /* CustomInfoWindowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomInfoWindowView.swift; sourceTree = "<group>"; };
+		155BC9452416552D00ED0A98 /* SmokerMap.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SmokerMap.entitlements; sourceTree = "<group>"; };
+		158A1635250219B800F9094F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		15A970582416380A007805DC /* SmokerMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmokerMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15A9705B2416380A007805DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15A9705F2416380A007805DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15A970622416380A007805DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15A970642416380B007805DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15A970672416380B007805DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15A970692416380B007805DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15A9707224163B82007805DC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		15A9707624163BAA007805DC /* SmokingAreaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmokingAreaViewController.swift; sourceTree = "<group>"; };
+		15A9707824163BFB007805DC /* MainTapBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTapBarViewController.swift; sourceTree = "<group>"; };
+		15A9707A24163C0F007805DC /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		15A9707C24163C26007805DC /* AddSmokingAreaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSmokingAreaViewController.swift; sourceTree = "<group>"; };
+		15A9707E24163C41007805DC /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		15A9708024163CF0007805DC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		15CB1E77241A146100024E3D /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		15CB1E91241A1CB300024E3D /* Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Widget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		15CB1E94241A1CB300024E3D /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		15CB1E97241A1CB300024E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		15CB1E99241A1CB300024E3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15CB1EA0241A1CBE00024E3D /* Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Widget.entitlements; sourceTree = "<group>"; };
+		344683672FA317A528ECC858 /* Pods_SmokerMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmokerMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61AEE12A91E1F25D660EBA11 /* Pods-SmokerMap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmokerMap.release.xcconfig"; path = "Target Support Files/Pods-SmokerMap/Pods-SmokerMap.release.xcconfig"; sourceTree = "<group>"; };
+		F1EEE81EF47FE75DAD039560 /* Pods-SmokerMap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmokerMap.debug.xcconfig"; path = "Target Support Files/Pods-SmokerMap/Pods-SmokerMap.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15A970552416380A007805DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E8A0EB9A3FE25A5827E1E6 /* Pods_SmokerMap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CB1E8E241A1CB300024E3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CB1E92241A1CB300024E3D /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15A9704F2416380A007805DC = {
+			isa = PBXGroup;
+			children = (
+				15A9705A2416380A007805DC /* SmokerMap */,
+				15CB1E93241A1CB300024E3D /* Widget */,
+				15A970592416380A007805DC /* Products */,
+				33C52CAFD2C0066C8A79CAA7 /* Pods */,
+				7FBC018B42343D514A241532 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		15A970592416380A007805DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15A970582416380A007805DC /* SmokerMap.app */,
+				15CB1E91241A1CB300024E3D /* Widget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15A9705A2416380A007805DC /* SmokerMap */ = {
+			isa = PBXGroup;
+			children = (
+				155BC9452416552D00ED0A98 /* SmokerMap.entitlements */,
+				15A9706F2416385F007805DC /* Model */,
+				15A9707024163864007805DC /* View */,
+				15A9707124163868007805DC /* Controller */,
+				15A9705B2416380A007805DC /* AppDelegate.swift */,
+				15A9705F2416380A007805DC /* ViewController.swift */,
+				15A970612416380A007805DC /* Main.storyboard */,
+				15A970642416380B007805DC /* Assets.xcassets */,
+				15A970662416380B007805DC /* LaunchScreen.storyboard */,
+				158A1635250219B800F9094F /* GoogleService-Info.plist */,
+				15A970692416380B007805DC /* Info.plist */,
+			);
+			path = SmokerMap;
+			sourceTree = "<group>";
+		};
+		15A9706F2416385F007805DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15A9708024163CF0007805DC /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15A9707024163864007805DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				153EE4A0241B5D7A0047C8BA /* AddSmokingAreaView.swift */,
+				153EE4A1241B5D7A0047C8BA /* CustomInfoWindowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15A9707124163868007805DC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15A9707824163BFB007805DC /* MainTapBarViewController.swift */,
+				15A9707224163B82007805DC /* LoginViewController.swift */,
+				15A9707624163BAA007805DC /* SmokingAreaViewController.swift */,
+				15A9707A24163C0F007805DC /* InfoViewController.swift */,
+				15A9707C24163C26007805DC /* AddSmokingAreaViewController.swift */,
+				15A9707E24163C41007805DC /* TimerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		15CB1E93241A1CB300024E3D /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				15CB1EA0241A1CBE00024E3D /* Widget.entitlements */,
+				15CB1E94241A1CB300024E3D /* TodayViewController.swift */,
+				15CB1E96241A1CB300024E3D /* MainInterface.storyboard */,
+				15CB1E99241A1CB300024E3D /* Info.plist */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		33C52CAFD2C0066C8A79CAA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1EEE81EF47FE75DAD039560 /* Pods-SmokerMap.debug.xcconfig */,
+				61AEE12A91E1F25D660EBA11 /* Pods-SmokerMap.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7FBC018B42343D514A241532 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				344683672FA317A528ECC858 /* Pods_SmokerMap.framework */,
+				15CB1E77241A146100024E3D /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15A970572416380A007805DC /* SmokerMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15A9706C2416380B007805DC /* Build configuration list for PBXNativeTarget "SmokerMap" */;
+			buildPhases = (
+				9FD8E1A5D48C6757DA913EB1 /* [CP] Check Pods Manifest.lock */,
+				15A970542416380A007805DC /* Sources */,
+				15A970552416380A007805DC /* Frameworks */,
+				15A970562416380A007805DC /* Resources */,
+				4E9AA501E8F821445EC4F524 /* [CP] Embed Pods Frameworks */,
+				C36731377BF80D2E32179DD6 /* [CP] Copy Pods Resources */,
+				15CB1E83241A146100024E3D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15CB1E9B241A1CB300024E3D /* PBXTargetDependency */,
+			);
+			name = SmokerMap;
+			productName = SmokerMap;
+			productReference = 15A970582416380A007805DC /* SmokerMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15CB1E90241A1CB300024E3D /* Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15CB1E9D241A1CB300024E3D /* Build configuration list for PBXNativeTarget "Widget" */;
+			buildPhases = (
+				15CB1E8D241A1CB300024E3D /* Sources */,
+				15CB1E8E241A1CB300024E3D /* Frameworks */,
+				15CB1E8F241A1CB300024E3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Widget;
+			productName = Widget;
+			productReference = 15CB1E91241A1CB300024E3D /* Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15A970502416380A007805DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = pandaman;
+				TargetAttributes = {
+					15A970572416380A007805DC = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					15CB1E90241A1CB300024E3D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 15A970532416380A007805DC /* Build configuration list for PBXProject "SmokerMap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15A9704F2416380A007805DC;
+			productRefGroup = 15A970592416380A007805DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15A970572416380A007805DC /* SmokerMap */,
+				15CB1E90241A1CB300024E3D /* Widget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15A970562416380A007805DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15A970682416380B007805DC /* LaunchScreen.storyboard in Resources */,
+				15A970652416380B007805DC /* Assets.xcassets in Resources */,
+				15A970632416380A007805DC /* Main.storyboard in Resources */,
+				158A1636250219B800F9094F /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CB1E8F241A1CB300024E3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CB1EA2241A238F00024E3D /* Assets.xcassets in Resources */,
+				15CB1E98241A1CB300024E3D /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E9AA501E8F821445EC4F524 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmokerMap/Pods-SmokerMap-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmokerMap/Pods-SmokerMap-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmokerMap/Pods-SmokerMap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FD8E1A5D48C6757DA913EB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmokerMap-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C36731377BF80D2E32179DD6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmokerMap/Pods-SmokerMap-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmokerMap/Pods-SmokerMap-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmokerMap/Pods-SmokerMap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15A970542416380A007805DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				153EE4A2241B5D7A0047C8BA /* AddSmokingAreaView.swift in Sources */,
+				15A9707324163B82007805DC /* LoginViewController.swift in Sources */,
+				15A9707F24163C41007805DC /* TimerViewController.swift in Sources */,
+				15CB1EA3241A23FB00024E3D /* TodayViewController.swift in Sources */,
+				15A9707724163BAA007805DC /* SmokingAreaViewController.swift in Sources */,
+				15A9707924163BFB007805DC /* MainTapBarViewController.swift in Sources */,
+				15A9707B24163C0F007805DC /* InfoViewController.swift in Sources */,
+				15A9708124163CF0007805DC /* Model.swift in Sources */,
+				15A970602416380A007805DC /* ViewController.swift in Sources */,
+				15A9705C2416380A007805DC /* AppDelegate.swift in Sources */,
+				15A9707D24163C26007805DC /* AddSmokingAreaViewController.swift in Sources */,
+				153EE4A3241B5D7A0047C8BA /* CustomInfoWindowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15CB1E8D241A1CB300024E3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15CB1E95241A1CB300024E3D /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15CB1E9B241A1CB300024E3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15CB1E90241A1CB300024E3D /* Widget */;
+			targetProxy = 15CB1E9A241A1CB300024E3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15A970612416380A007805DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15A970622416380A007805DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15A970662416380B007805DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15A970672416380B007805DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		15CB1E96241A1CB300024E3D /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15CB1E97241A1CB300024E3D /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15A9706A2416380B007805DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15A9706B2416380B007805DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15A9706D2416380B007805DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1EEE81EF47FE75DAD039560 /* Pods-SmokerMap.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SmokerMap/SmokerMap.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3QQ63V4S9;
+				INFOPLIST_FILE = SmokerMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tistory.iospanda.SmokerMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15A9706E2416380B007805DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61AEE12A91E1F25D660EBA11 /* Pods-SmokerMap.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SmokerMap/SmokerMap.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3QQ63V4S9;
+				INFOPLIST_FILE = SmokerMap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tistory.iospanda.SmokerMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15CB1E9E241A1CB300024E3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Widget/Widget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3QQ63V4S9;
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tistory.iospanda.SmokerMaps.Widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15CB1E9F241A1CB300024E3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Widget/Widget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S3QQ63V4S9;
+				INFOPLIST_FILE = Widget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tistory.iospanda.SmokerMaps.Widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15A970532416380A007805DC /* Build configuration list for PBXProject "SmokerMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A9706A2416380B007805DC /* Debug */,
+				15A9706B2416380B007805DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15A9706C2416380B007805DC /* Build configuration list for PBXNativeTarget "SmokerMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15A9706D2416380B007805DC /* Debug */,
+				15A9706E2416380B007805DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15CB1E9D241A1CB300024E3D /* Build configuration list for PBXNativeTarget "Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15CB1E9E241A1CB300024E3D /* Debug */,
+				15CB1E9F241A1CB300024E3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15A970502416380A007805DC /* Project object */;
+}
