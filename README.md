@@ -17,6 +17,12 @@
 
 ---
 
+## 구동 영상(Youtube link)
+
+###  https://youtu.be/UuHXqTF5P-I
+
+---
+
 ## 기획 의도 & 기능
 
 ![스크린샷 2020-09-04 오후 4.41.21](https://tva1.sinaimg.cn/large/007S8ZIlgy1gienubnbk8j314b0u0aeb.jpg)
@@ -42,9 +48,7 @@
 
 
 
-## 구동 영상(Youtube link)
 
-###  https://youtu.be/UuHXqTF5P-I
 
 
 
