@@ -8,7 +8,7 @@
 
 - 기간 : 2020.03.13
 - 사용 기술
-  - Language : Swiftt
+  - Language : Swift
   - Framework : UIKit, CoreLocation
   - Library : SnapKit, FirebaseUI, Charts, NMapsMap(네이버 지도)
   - Back-End : Google Firebase
